@@ -28,39 +28,36 @@ O buffer circular é uma estrutura de dados que é usada para manejar filas de d
 Lab 03: GPIO
 Objetivo: desenvolver um programa que faça com que o microcontrolador ATMega328P conte quantas vezes um botão táctil (push-button) foi pressionado, exibindo o valor atual da contagem em um display de 7 segmentos.
 
-Lab 04: Assembly
-Objetivo: elaborar uma rotina em linguagem Assembly para o ATMega328P que introduza um atraso temporal Escrever um programa em Assembly que faça com que um LED pisque com um período de 1 segundo (0,5 s aceso e 0,5 s apagado)
-
-Lab 05: Interrupções
+Lab 04: Interrupções
 Objetivo: desenvolver um programa que controle um LED RGB, sendo sensível a comandos externos dados por dois botões.
 
 O estado do LED RGB será alterado de maneira periódica pelo microcontrolador, passando por uma sequência pré-definida de estados.
 
 Um botão terá efeito sobre a velocidade de transição entre os estados (a cada vez que for pressionado, o tempo que o LED permanece aceso deve ser reduzido pela metade até um valor mínimo). O outro botão controlará o sentido da transição de cores.
 
-Lab 06: USART
+Lab 05: USART
 Objetivo: desenvolver um programa que utilize a USART para transmitir indefinidamente uma sequência de caracteres pré-definida ao computador.
 
 Cada vez que a sequência inteira de caracteres for transmitida, o programa deve exibir uma mensagem de confirmação: " Mensagem transmitida com sucesso! ". Um atraso de 5 s deve ser introduzido entre as transmissões.
 
-Lab 07: Transmissão e recepção serial com interrupções
+Lab 06: Transmissão e recepção serial com interrupções
 Objetivo: desenvolver um programa que utilize o receptor da UART para criar um sistema de acionamento de um LED RGB a paritr de comandos do teclado.
 
 Também utilizar o transmissor da UART para encaminhar mensagens de confirmação e status.
 
 A rotina associada à recepção utiliza um buffer circular.
 
-Lab 08: Temporizadores
+Lab 07: Temporizadores
 Objetivo: desenvolver um programa que faça com que dois LEDs pisquem em diferentes frequências, ao mesmo tempo em que uma mensagem de texto é continuamente transmitida pela UART.
 
 A solução utiliza a interrupção do timer 2 associada ao modo Clear Timer on Compare Match (CTC).
 
-Lab 09: PWM
+Lab 08: PWM
 Objetivo: desenvolver um programa que faça com que a intensidade luminosa de um LED seja controlada por um sinal PWM.
 
-Lab 10: gerador de ondas
-Objetivo: desenvolver um programa que gere um sinal PWM cuja largura de pulso em cada período represente o valor de uma amostra de uma forma de onda analógica, a qual pode ser reconstruída por meio de uma filtragem do tipo passa-baixas.
+Lab 09: Assembly
+Objetivo: elaborar uma rotina em linguagem Assembly para o ATMega328P que introduza um atraso temporal Escrever um programa em Assembly que faça com que um LED pisque com um período de 1 segundo (0,5 s aceso e 0,5 s apagado)
 
-Ondas: senoidal, triangular, dente-de-serra, onda AM
+Lab 10:Robô
 
-O LED incorporado deve ser acionado para indicar qual forma de onda selecionada
+
